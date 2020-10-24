@@ -54,7 +54,6 @@
 		C2B162E72544AF590079D946 /* UIKitCornersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitCornersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B162EB2544AF590079D946 /* UIKitCornersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIKitCornersUITests.m; sourceTree = "<group>"; };
 		C2B162ED2544AF590079D946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2B162FC2544B13F0079D946 /* BSCornerRadiusConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSCornerRadiusConfiguration.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +110,6 @@
 				C2B162C82544AF580079D946 /* SceneDelegate.m */,
 				C2B162CA2544AF580079D946 /* ViewController.h */,
 				C2B162CB2544AF580079D946 /* ViewController.m */,
-				C2B162FC2544B13F0079D946 /* BSCornerRadiusConfiguration.h */,
 				C2B162CD2544AF580079D946 /* Main.storyboard */,
 				C2B162D02544AF590079D946 /* Assets.xcassets */,
 				C2B162D22544AF590079D946 /* LaunchScreen.storyboard */,
