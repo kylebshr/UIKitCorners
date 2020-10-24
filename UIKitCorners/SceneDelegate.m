@@ -7,21 +7,6 @@
 
 #import "SceneDelegate.h"
 
-@interface BSCornerRadiusConfiguration
-@property(readonly, nonatomic) double topRight; // @synthesize topRight=_topRight;
-@property(readonly, nonatomic) double bottomRight; // @synthesize bottomRight=_bottomRight;
-@property(readonly, nonatomic) double bottomLeft; // @synthesize bottomLeft=_bottomLeft;
-@property(readonly, nonatomic) double topLeft; // @synthesize topLeft=_topLeft;
-@end
-
-@interface UIApplicationSceneSettings
-@property(readonly, nonatomic) BSCornerRadiusConfiguration *cornerRadiusConfiguration;
-@end
-
-@interface UIScene(Private)
-@property(readonly, nonatomic) UIApplicationSceneSettings *_effectiveUISettings;
-@end
-
 @interface SceneDelegate ()
 
 @end
@@ -30,8 +15,9 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
-
-    NSLog(@"%@", scene._effectiveUISettings.cornerRadiusConfiguration);
+    // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
+    // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
+    // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 }
 
 

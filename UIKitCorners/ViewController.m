@@ -7,8 +7,6 @@
 
 #import "ViewController.h"
 
-#define CornerRadiusConfiguration NSClassFromString(@"BSCornerRadiusConfiguration")
-
 @interface ViewController ()
 
 @end
@@ -17,11 +15,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    NSBundle *baseBoard = [[NSBundle alloc] initWithPath:@"/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/BaseBoard.framework"];
-
-    [baseBoard load];
-
+    // Do any additional setup after loading the view.
 }
 
 

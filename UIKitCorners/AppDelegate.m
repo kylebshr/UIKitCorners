@@ -7,6 +7,10 @@
 
 #import "AppDelegate.h"
 
+@interface UIScreen(Private)
+- (double)_displayCornerRadius;
+@end
+
 @interface AppDelegate ()
 
 @end
@@ -15,7 +19,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    NSLog(@"%f", UIScreen.mainScreen._displayCornerRadius);
+
     return YES;
 }
 

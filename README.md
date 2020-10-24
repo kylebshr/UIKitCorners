@@ -1,6 +1,6 @@
 # UIKitCorners
 
-Prints the screen corner radius that UIKit (specifically, `UIScene`) uses. Check out the code in `SceneDelegate.m`.
+Prints the screen corner radius that UIKit (specifically, `UIScreen`) uses. Check out the code in `AppDelegate.m`.
 
 # Values
 
